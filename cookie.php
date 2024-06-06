@@ -47,6 +47,7 @@ if(isset($_COOKIE["alive"]))
 
 
 <?php
+//for seting a cookie in form
 if(isset($_POST)){
     if($_POST["button"]=="add")
     {
